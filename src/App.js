@@ -18,7 +18,8 @@ function App() {
   }
 
   const deleteItem = (ix) => {
-    console.log(ix)
+    
+    console.log(ix);
     const listOfItems = [...newUser];
     listOfItems.splice(ix,1);
     setNewUser(listOfItems);
